@@ -21,6 +21,14 @@ Companion code for **KurdishMCQ: A multiple-choice question dataset for the Kurd
 | `make_figures.py` | Regenerates the article's answer-key and grade distribution figures (Figs. 1–2) from the published JSON. |
 | `make_sunburst.py` | Regenerates the article's subject/category sunburst (Fig. 3) from the published JSON. |
 
+## External validation (repeated on V2)
+
+| File | Purpose |
+|---|---|
+| `validation_sample_v2.json` | Sampling protocol: seed 20260912, frame (the 16,512 records with retained source images), and the 200 sampled record ids. |
+| `validation_sheet.docx` | The annotated validation sheet: each item shows the dataset record, the source image, and the external validator's verdict/notes. |
+| `validation_results_v2.json` | Summary of outcomes: 198/200 fully correct vs source (99.0%; Wilson 95% CI 96.4–99.7%); the two dataset errors found were corrected in the published V2; two source-inherited key errors are flagged `source_defect`. |
+
 ## Reproducing the quality-control audit
 
 ```bash

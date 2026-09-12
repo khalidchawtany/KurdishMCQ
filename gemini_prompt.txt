@@ -1,4 +1,4 @@
-The following text is a Kurdish Sorani MCQ question. Perform spelling correction and format it as question text with its options as A, B, C, D each listed on a new line. Remove the question number if any. In Kurdish Sorani a word never ends with "ه ", instead it ends with "ە".\n
+ The following text is a Kurdish Sorani MCQ question. Perform spelling correction and format it as question text with its options as A, B, C, D each listed on a new line. Remove the question number if any.\n
 Example:\n
 به بریار نامه ى بانكوك : ( نوبيك - لافتا - ناسيان - بانگی ده وله تی ) دامه زرا\n
 Desired Ouput:\n

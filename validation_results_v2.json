@@ -1,0 +1,44 @@
+{
+ "protocol": {
+  "seed": 20260912,
+  "sample_size": 200,
+  "frame": "all V2 records with a retained source image (16,512 records, 95.9% of the dataset)",
+  "validator": "external native Kurdish speaker",
+  "definition": "fully correct = question text, all options, and answer key faithfully match the source image",
+  "date": "2026-09-12"
+ },
+ "result": {
+  "fully_correct": 196,
+  "source_inherited_key_errors_faithfully_copied": 2,
+  "transcription_errors": 1,
+  "answer_key_errors": 1,
+  "fully_correct_vs_source": 198,
+  "accuracy_vs_source": 0.99,
+  "wilson_95_ci": [
+   0.964,
+   0.997
+  ]
+ },
+ "findings": [
+  {
+   "id": "KMCQ-04218",
+   "type": "source_key_error",
+   "note": "textbook marks D (YX); correct is A (XX); faithful copy — flagged source_defect"
+  },
+  {
+   "id": "KMCQ-04478",
+   "type": "source_key_error",
+   "note": "textbook marks D; correct is B (friction); faithful copy — flagged source_defect"
+  },
+  {
+   "id": "KMCQ-06270",
+   "type": "transcription_error",
+   "note": "option texts duplicated inside question field — corrected in dataset"
+  },
+  {
+   "id": "KMCQ-06816",
+   "type": "answer_key_error",
+   "note": "key A wrong, corrected to B in dataset"
+  }
+ ]
+}
